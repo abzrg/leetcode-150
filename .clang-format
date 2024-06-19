@@ -1,0 +1,16 @@
+AllowShortFunctionsOnASingleLine: Empty
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterControlStatement: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterClass: true
+  BeforeElse: true
+  BeforeWhile: true
+BreakBeforeBraces: Custom
+ColumnLimit: 100
+IndentCaseLabels: true
+IndentWidth: 4
+SpaceAfterCStyleCast: true
+TabWidth: 4
+AccessModifierOffset: -4
