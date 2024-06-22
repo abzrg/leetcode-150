@@ -14,9 +14,11 @@ Checks: "*,
         -readability-avoid-const-params-in-decls,
         -cppcoreguidelines-non-private-member-variables-in-classes,
         -misc-non-private-member-variables-in-classes,
-        -hicpp-deprecated-headers
-        -modernize-deprecated-headers
-        -modernize-use-nullptr
+        -hicpp-deprecated-headers,
+        -modernize-deprecated-headers,
+        -modernize-use-nullptr,
+        -cppcoreguidelines-avoid-magic-numbers,
+        -readability-magic-numbers,
 "
 WarningsAsErrors: ''
 HeaderFilterRegex: ''
