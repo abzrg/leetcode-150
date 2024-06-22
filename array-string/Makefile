@@ -1,5 +1,5 @@
 -include ../make/common.mk
-TOPIC = array-string
+TOPIC = ARRAY-STRING
 
 # Add Targets to EXES:
 EXECS = merge-sorted-array
@@ -13,7 +13,11 @@ $(BUILDDIR):
 
 $(BUILDDIR)/%: %.cpp | $(BUILDDIR)
 	@echo [C ${TOPIC}] $@
+ifndef VERBOSE
+	@$(CXX) $(CXXFLAGS) $< -o $@
+else
 	$(CXX) $(CXXFLAGS) $< -o $@
+endif
 
 clean:
 	-@${RM} -fv $(TARGETS)
