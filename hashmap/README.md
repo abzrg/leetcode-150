@@ -11,7 +11,7 @@ It then iterates over the `ransomNote` string to check if each character can be 
 - Checking the ransom note: The algorithm then iterates through each character in the `ransomNote` string, checking and updating the count in the map. This takes O(n) time, where `n` is the length of the `ransomNote`.
 
 Given that these two operations are sequential, the overall runtime complexity is:
-\[ \text{O}(m + n) \]
+O(m + n)
 
 ### Space Complexity
 
@@ -23,4 +23,4 @@ Given that these two operations are sequential, the overall runtime complexity i
   Thus, we can say that the space required for the map is O(1).
 - Additional variables: The algorithm uses a few additional variables for iteration and storage, which are O(1).
 
-Therefore, the overall space complexity O(m).
+Therefore, the overall space complexity is O(m).

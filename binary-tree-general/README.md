@@ -19,8 +19,8 @@ The maximum depth of this binary tree is 3.
 
 ### Runtime Complexity
 
-The algorithm visits each node exactly once, leading to a time complexity of \(O(n)\).
+The algorithm visits each node exactly once, leading to a time complexity of O(n).
 
 ### Space Complexity
 
-The space complexity is \(O(h)\), where \(h\) is the height of the binary tree. This space is used by the call stack during the recursion. In the worst case, the height of the tree is \(n\) (for a skewed tree), resulting in \(O(n)\) space complexity. For a balanced tree, the height is \(O(\log n)\).
+The space complexity is O(h), where h is the height of the binary tree. This space is used by the call stack during the recursion. In the worst case, the height of the tree is n (for a skewed tree), resulting in O(n) space complexity. For a balanced tree, the height is O(\log n).
