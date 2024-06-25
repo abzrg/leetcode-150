@@ -9,7 +9,7 @@ MAKEFLAGS += --no-print-directory
 endif
 
 # Add topics here
-TOPICS = stack hashmap array-string binary-tree-general intervals
+TOPICS = stack hashmap array-string binary-tree-general intervals binary-search-tree
 TARGET_TOPICS = $(addprefix __,$(TOPICS))
 
 all: $(TARGET_TOPICS)
