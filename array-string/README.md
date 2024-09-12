@@ -14,3 +14,9 @@ The algorithm merges the arrays in-place using the extra space already allocated
 
 Thus, the space complexity is:
 O(1)
+
+
+## [Length of Last Word](https://leetcode.com/problems/length-of-last-word/?envType=study-plan-v2&envId=top-interview-150)
+
+- runtime complexity: O(N)
+- space complexity: O(1)
