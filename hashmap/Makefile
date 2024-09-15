@@ -2,7 +2,7 @@
 TOPIC = HASHMAP
 
 # Add Targets to EXES:
-EXECS = ransom-note
+EXECS = $(patsubst %.cpp,%,$(wildcard *.cpp))
 
 TARGETS = $(addprefix $(BUILDDIR)/,$(EXECS))
 

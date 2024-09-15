@@ -2,7 +2,7 @@
 TOPIC = BIN-TREE-GNRL
 
 # Add Targets to EXES:
-EXECS = max-depth-binary-tree
+EXECS = $(patsubst %.cpp,%,$(wildcard *.cpp))
 
 TARGETS = $(addprefix $(BUILDDIR)/,$(EXECS))
 

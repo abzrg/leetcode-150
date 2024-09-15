@@ -2,7 +2,7 @@
 TOPIC = ARRAY-STRING
 
 # Add Targets to EXES:
-EXECS = merge-sorted-array
+EXECS = $(patsubst %.cpp,%,$(wildcard *.cpp))
 
 TARGETS = $(addprefix $(BUILDDIR)/,$(EXECS))
 

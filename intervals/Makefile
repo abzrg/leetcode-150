@@ -2,7 +2,7 @@
 TOPIC = INTERVALS
 
 # Add Targets to EXES:
-EXECS = summary-ranges
+EXECS = $(patsubst %.cpp,%,$(wildcard *.cpp))
 
 TARGETS = $(addprefix $(BUILDDIR)/,$(EXECS))
 

@@ -2,7 +2,7 @@
 TOPIC = BINARY-SEARCH-TREE
 
 # Add Targets to EXES:
-EXECS = min-absolute-diff-in-bst
+EXECS = $(patsubst %.cpp,%,$(wildcard *.cpp))
 
 TARGETS = $(addprefix $(BUILDDIR)/,$(EXECS))
 
